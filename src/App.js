@@ -3,6 +3,7 @@ import Table from './Table';
 import Welcome from './Welcome';
 import Comment from './Comment';
 import Clock from './Clock';
+import Toggle from './Toggle';
 
 class App extends Component {
   render(){
@@ -23,6 +24,7 @@ class App extends Component {
         <Welcome name={user.lastName} />
         <Comment author={author} text="comment lalala." date="2019-07-27"/>
         <Clock />
+        <Toggle />
       </div>
     )
   }
