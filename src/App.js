@@ -4,6 +4,7 @@ import Welcome from './Welcome';
 import Comment from './Comment';
 import Clock from './Clock';
 import Toggle from './Toggle';
+import Calculator from './Calculator';
 
 class App extends Component {
   render(){
@@ -25,6 +26,7 @@ class App extends Component {
         <Comment author={author} text="comment lalala." date="2019-07-27"/>
         <Clock />
         <Toggle />
+        <Calculator />
       </div>
     )
   }
