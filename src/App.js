@@ -6,6 +6,7 @@ import Clock from './Clock';
 import Toggle from './Toggle';
 import Calculator from './Calculator';
 import FilterableProductTable from './FilterableProductTable';
+import TicTacToeGame from './TicTacToeGame';
 
 class App extends Component {
   render(){
@@ -27,6 +28,7 @@ class App extends Component {
     ];
     return (
       <div className="App">
+        <TicTacToeGame />
         <div className="Table">
           <Table />
         </div>
